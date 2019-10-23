@@ -2,7 +2,7 @@ function[d] = sinkHorn(X,Y,lambda,r)
 %[d] = sinkHorn(M,lambda,r,C)
 %
 
-if nargin == 0
+if nargin == 0. % Example of how to use it
     nd = 100;
     ep =0.5;
     Xo = randn(nd,2);  
